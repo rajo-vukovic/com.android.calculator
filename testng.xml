@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="AndroidCalculator.utils.Listeners.TestListener"/>
+        <listener class-name="AndroidCalculator.utils.Listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test verbose="10"
+          name="Automation testing of Android app - Calculator">
+        <classes>
+            <class name="AndroidCalculator.tests.Tests">
+                <methods>
+                    <include name="Sum" />
+                    <include name="Subtract" />
+                    <include name="Multiply" />
+                    <include name="Divide" />
+                    <include name="DivideByZero" />
+                    <include name="CombinedOperations" />
+                    <include name="Percentage" />
+                    <include name="BackspaceDelete" />
+                    <include name="ClearNumbers" />
+                    <include name="MemoryPlus" />
+                    <include name="MemoryMinus" />
+                    <include name="CombineMemoryFunctionsAndMemoryClear" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
