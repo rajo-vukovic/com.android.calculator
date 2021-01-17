@@ -1,6 +1,12 @@
 # Android App Automation Framework
 
-![https://appium.io/](https://miro.medium.com/max/3900/1*lCV25_POxTr5qEUYujgEDQ.png)
+<p>
+<a href="https://appium.io/">
+<img border="0" alt="W3Schools" src="https://miro.medium.com/max/3900/1*lCV25_POxTr5qEUYujgEDQ.png">
+</a>
+</p>
+
+
 
 ***This is an Appium Page Factory Automation Framework.***
 
