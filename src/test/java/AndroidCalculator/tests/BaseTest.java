@@ -18,7 +18,7 @@ public class BaseTest {
     public AndroidDriver<AndroidElement> driver;
     String sessionID;
 
-    @BeforeMethod
+    @BeforeMethod //
     public void setUp() throws MalformedURLException {
         try {
             DesiredCapabilities dc = new DesiredCapabilities();
