@@ -8,7 +8,7 @@
 
 
 
-***This is an Appium Page Factory Automation Framework.***
+***This is an Appium Page Factory Automation Framework for testing Calculator application on the Android operating system.***
 
 * Written in `Java`
 * Implemented using `TestNG` testing framework
