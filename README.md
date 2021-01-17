@@ -1,2 +1,1 @@
-# com.android.calculator
- 
+# Android App Automation Framework
