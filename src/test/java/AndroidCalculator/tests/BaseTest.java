@@ -18,14 +18,14 @@ public class BaseTest {
     public AndroidDriver<AndroidElement> driver;
     String sessionID;
 
-    @BeforeMethod //
+    @BeforeMethod
     public void setUp() throws MalformedURLException {
         try {
             DesiredCapabilities dc = new DesiredCapabilities();
             dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
             dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Huawei P10 lite");
             dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0.0");
-            dc.setCapability(MobileCapabilityType.UDID, "PAG4C17805001012");
+            dc.setCapability(MobileCapabilityType.UDID, "");
             dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.android.calculator2");
             dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.android.calculator2.Calculator");
 
